@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script type="module" src="./src/main.js" defer></script>
+  <script src="https://kit.fontawesome.com/ddcdb7b3e4.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section class="game">
+    <header class="game_header">
+      <div class="game_button">
+        <button class="game_start"><i class="fas fa-play"></i></button>
+        <button class="game_stop"><i class="fas fa-stop"></i></button>
+      </div>
+      <span class="timer"></span>
+      <span class="count"></span>    
+    </header>
+    <section class="game_field">
+      <div class="carrots"></div>        
+      <div class="bugs"></div>  
+    </section>
+    <section class="popup popup_hide">
+      <div class="popup__message"></div>
+      <span class="popup__reload"><i class="fas fa-redo-alt"></i></span>
+    </section>
+  </section>
+</body>
+</html>
